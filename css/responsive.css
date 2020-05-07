@@ -493,8 +493,8 @@ h1, .h1 {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .about-desc img {
-        width: 200px;
-        height: 200px;
+        width: 205px;
+        height: 210px;
         top:0;
         -webkit-transform:translate(-50%);
         -ms-transform:translate(-50%);
@@ -536,6 +536,9 @@ h1, .h1 {
         -webkit-transform: translate(0,50%);
         -ms-transform: translate(0,50%);
         transform: translate(0,50%);
+    }
+    .about__line {
+        right: 5.5rem;
     }
 }
 @media only screen 
