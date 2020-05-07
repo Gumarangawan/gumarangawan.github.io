@@ -493,8 +493,8 @@ h1, .h1 {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .about-desc img {
-        width: 180px;
-        height: 180px;
+        width: 200px;
+        height: 200px;
         top:0;
         -webkit-transform:translate(-50%);
         -ms-transform:translate(-50%);
@@ -502,7 +502,7 @@ h1, .h1 {
     }
     .about-desc p{
         font-size:15.3px;
-        width:29.3rem;
+        width:24.3rem;
         top: 0;
         left:50%;
         right:50%;
