@@ -519,8 +519,8 @@ h1, .h1 {
     and (max-device-width: 667px) 
     and (-webkit-min-device-pixel-ratio: 2){
     .about-desc img {
-        width: 180px;
-        height: 180px;
+        width: 230px;
+        height: 240px;
         top:0;
         -webkit-transform:translate(-50%);
         -ms-transform:translate(-50%);
@@ -528,11 +528,11 @@ h1, .h1 {
     }
     .about-desc p{
         font-size:15.3px;
-        width:34.5rem;
+        width:27.5rem;
         top: 0;
         left:50%;
         right:50%;
-        margin-top: 22px;
+        margin-top: 60px;
         -webkit-transform: translate(0,50%);
         -ms-transform: translate(0,50%);
         transform: translate(0,50%);
@@ -546,8 +546,8 @@ h1, .h1 {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .about-desc img {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         top:0;
         -webkit-transform:translate(-50%);
         -ms-transform:translate(-50%);
@@ -555,14 +555,14 @@ h1, .h1 {
     }
     .about-desc p{
         font-size:15.3px;
-        width:34.5rem;
+        width:28.5rem;
         top: 0;
         left:50%;
         right:50%;
         -webkit-transform: translate(0,50%);
         -ms-transform: translate(0,50%);
         transform: translate(0,50%);
-        margin-top: 34px;
+        margin-top: 80px;
     }
 }
 @media only screen 
@@ -717,8 +717,8 @@ h1, .h1 {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
       .skillbar{
-          width:73vw;
-          height:20px;
+          width:75vw;
+          height:60px;
           font-size:12px;
           top:4.2rem;
           left:-1.6rem;
@@ -741,7 +741,7 @@ h1, .h1 {
   and (orientation: portrait) {
     .skillbar{
         width:73vw;
-        height:20px;
+        height75px;
         font-size:12px;
         top:.2rem;
     }
