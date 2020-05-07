@@ -48,7 +48,7 @@ h1, .h1 {
  and (-webkit-min-device-pixel-ratio: 2)
  and (orientation: portrait) {
     .header-logo h3{
-      width:152px;
+      width: 152px;
       font-size:9.5px;
       margin-top:6.7rem;
     }
@@ -475,7 +475,7 @@ h1, .h1 {
         border: none;
     }
     .about__line {
-        height: 7.2rem;
+        height: 8.2rem;
     }
 }
 
@@ -509,6 +509,9 @@ h1, .h1 {
         -webkit-transform: translate(0,50%);
         -ms-transform: translate(0,50%);
         transform: translate(0,50%);
+    }
+    .about__line {
+        right: 4.8rem;
     }
 }
 @media only screen 
@@ -1184,4 +1187,4 @@ h1, .h1 {
     .footer-main .right {
         padding-left: 0;
     }
-}
+}  
