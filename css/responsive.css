@@ -541,6 +541,16 @@ h1, .h1 {
         right: 5.5rem;
     }
 }
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+        .about__line {
+            right: 5.5rem;
+        }
+  }
+
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
